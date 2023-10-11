@@ -22,3 +22,6 @@
 
 # Ignore .aws-sam folder
 .aws-sam
+
+# Ignore .env file
+.env
