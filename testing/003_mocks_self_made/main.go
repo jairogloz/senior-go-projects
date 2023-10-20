@@ -38,7 +38,9 @@ func main() {
 
 	for _, id := range ids {
 		isValid, err := employeeService.ValidateEmployee(id)
-		fmt.Printf("id: %s, isValid: %v, err: %v\n", id, isValid, err)
+		fmt.Printf("\nid: %s, isValid: %v, err: %v\n\n", id, isValid, err)
 	}
+
+	fmt.Printf(fmt.Sprintf("\n\n\t\t**************************\n\t\t*  Suscríbete al canal!  *\n\t\t**************************\n\n"))
 
 }

@@ -7,5 +7,8 @@ type Service struct {
 }
 
 func NewService(storage domain.EmployeeStorage) domain.EmployeeService {
+	if storage == nil {
+		panic("storage is nil")
+	}
 	return &Service{storage: storage}
 }
