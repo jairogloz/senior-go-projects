@@ -25,3 +25,7 @@
 
 # Ignore .env file
 .env
+
+/004_comment_picker/holabrackets_jrz_comment_list_20250223.csv
+
+.DS_Store
