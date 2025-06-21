@@ -3,7 +3,7 @@ package mysql
 import (
 	"database/sql"
 	"fmt"
-	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/interfaces/core"
+	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/core"
 	_ "github.com/go-sql-driver/mysql"
 )
 

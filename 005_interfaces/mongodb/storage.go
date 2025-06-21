@@ -2,7 +2,7 @@ package mongodb
 
 import (
 	"context"
-	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/interfaces/core"
+	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/core"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/interfaces/mysql"
-	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/interfaces/server"
+	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/mysql"
+	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/server"
 	"log"
 	"net/http"
 )

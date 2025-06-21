@@ -2,8 +2,8 @@ package server_test
 
 import (
 	"errors"
-	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/interfaces/mocks"
-	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/interfaces/server"
+	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/mocks"
+	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/server"
 	"github.com/golang/mock/gomock"
 	"net/http"
 	"net/http/httptest"

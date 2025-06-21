@@ -2,7 +2,7 @@ package server
 
 import (
 	"encoding/json"
-	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/interfaces/core"
+	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/core"
 	"github.com/julienschmidt/httprouter"
 	"net/http"
 )
