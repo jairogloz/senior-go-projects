@@ -1,0 +1,43 @@
+version: "2"
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 50
+  exclude-use-default: false
+  exclude-files:
+    - some_pattern_here
+
+run:
+  output:
+    formats:
+      - colored-line-number
+  issues-exit-code: 1
+  timeout: 5m
+  tests: true
+
+linters:
+  enable:
+    - goconst        # Find repeated constants
+    - unused         # Checks for unused vars, consts, funcs, types
+    - errcheck       # Check that errors are handled
+    - govet          # Vet is the official Go static analyzer
+    - staticcheck    # Advanced static analysis
+    - gosimple       # Code simplification suggestions
+    - cyclop         # Cyclomatic complexity
+    #- revive
+
+linters-settings:
+  cyclop:
+    max-complexity: 10
+  funlen:
+    lines: 100
+    statements: 50
+  goconst:
+    min-len: 2
+    min-occurrences: 2
+    ignore-calls: false
+  unused:
+    check-exported: true
+
+# Limit number of issues
+max-issues: 20
