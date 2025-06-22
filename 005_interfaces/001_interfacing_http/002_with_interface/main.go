@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/JairoGLoz/senior-go-projects/senior-go-projects/005_interfaces/001_interfacing_http/002_with_interface/internal/services/cat"
+	"net/http"
 )
 
 // CatAPIHandler defines the interface with the GetCatFacts method
@@ -14,7 +15,8 @@ func main() {
 
 	var handler CatAPIHandler
 	handler = &cat.APIHandler{
-		Url: "https://meowfacts.herokuapp.com/?count=%d",
+		Url:        "https://meowfacts.herokuapp.com/?count=%d",
+		HTTPClient: http.DefaultClient,
 	}
 
 	// Call with n = 1
